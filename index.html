@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — HTML & CSS Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">&#123; Dev &#125;</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <span class="eyebrow">✦ Available for projects</span>
+    <h1>
+      Hi, I'm <span class="name">Himanshu</span>
+      HTML &amp; CSS Developer &amp;  Frontend Developer
+    </h1>
+    <p class="hero-sub">
+      I craft pixel-perfect, responsive interfaces — turning designs into clean,
+      semantic, and beautiful web experiences.
+    </p>
+    <div class="btn-row">
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+      <a href="#contact" class="btn btn-outline">Get In Touch</a>
+    </div>
+  </div>
+  <div class="scroll-hint">Scroll</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-avatar">
+        <div class="avatar-placeholder">
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+            <circle cx="40" cy="30" r="18" fill="white"/>
+            <ellipse cx="40" cy="66" rx="28" ry="16" fill="white"/>
+          </svg>
+          <span>Your Photo Here</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="section-label">About Me</p>
+        <h2>Passionate about the <em>craft</em> of the web</h2>
+        <p>I'm an <strong>HTML &amp; CSS developer</strong> who believes that great interfaces
+        are built on solid foundations — clean markup, maintainable stylesheets, and
+        careful attention to detail.</p>
+        <p>From fluid layouts to intricate animations, I focus on creating experiences that
+        feel natural and look stunning across every device and screen size.</p>
+        <p>When I'm not writing code, you'll find me exploring new CSS techniques,
+        contributing to open-source projects, or sketching UI concepts.</p>
+        <div class="stat-row">
+          <div class="stat">
+            <span class="stat-num">50+</span>
+            <span class="stat-label">Projects Done</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">20+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-inner">
+    <p class="section-label">What I Know</p>
+    <h2>Skills &amp; Tools</h2>
+    <p class="section-desc">A toolkit built around making the web look and feel exactly right.</p>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">🧱</div>
+        <div class="skill-name">HTML5 / Semantic Markup</div>
+        <div class="bar-wrap"><div class="bar" style="width:95%"></div></div>
+        <div class="skill-level">Expert · 95%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🎨</div>
+        <div class="skill-name">CSS3 / Animations</div>
+        <div class="bar-wrap"><div class="bar" style="width:92%"></div></div>
+        <div class="skill-level">Expert · 92%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">📐</div>
+        <div class="skill-name">Flexbox &amp; CSS Grid</div>
+        <div class="bar-wrap"><div class="bar" style="width:90%"></div></div>
+        <div class="skill-level">Expert · 90%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">📱</div>
+        <div class="skill-name">Responsive Design</div>
+        <div class="bar-wrap"><div class="bar" style="width:95%"></div></div>
+        <div class="skill-level">Expert · 95%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">⚡</div>
+        <div class="skill-name">Sass / SCSS</div>
+        <div class="bar-wrap"><div class="bar" style="width:80%"></div></div>
+        <div class="skill-level">Advanced · 80%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🌊</div>
+        <div class="skill-name">Tailwind CSS</div>
+        <div class="bar-wrap"><div class="bar" style="width:78%"></div></div>
+        <div class="skill-level">Advanced · 78%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">♿</div>
+        <div class="skill-name">Web Accessibility (a11y)</div>
+        <div class="bar-wrap"><div class="bar" style="width:75%"></div></div>
+        <div class="skill-level">Advanced · 75%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🔧</div>
+        <div class="skill-name">Git &amp; Version Control</div>
+        <div class="bar-wrap"><div class="bar" style="width:70%"></div></div>
+        <div class="skill-level">Proficient · 70%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-inner">
+    <p class="section-label">My Work</p>
+    <h2>Featured Projects</h2>
+    <p class="section-desc">A selection of projects that showcase my approach to design and development.</p>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-thumb p1"><span>01</span></div>
+        <div class="project-body">
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Animations</span></div>
+          <div class="project-title">Gradient Landing Page</div>
+          <p class="project-desc">A vibrant, animated landing page for a SaaS product with smooth scroll and CSS micro-interactions.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link">↗ Live Demo</a>
+            <a href="#" class="proj-link">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb p2"><span>02</span></div>
+        <div class="project-body">
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS Grid</span><span class="tag">Responsive</span></div>
+          <div class="project-title">Photography Portfolio</div>
+          <p class="project-desc">Masonry grid layout with lightbox effect, built entirely with pure CSS and HTML.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link">↗ Live Demo</a>
+            <a href="#" class="proj-link">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb p3"><span>03</span></div>
+        <div class="project-body">
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">SCSS</span><span class="tag">Dark UI</span></div>
+          <div class="project-title">Dashboard UI Kit</div>
+          <p class="project-desc">A complete dark-mode dashboard UI with charts, tables, and sidebar components.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link">↗ Live Demo</a>
+            <a href="#" class="proj-link">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb p4"><span>04</span></div>
+        <div class="project-body">
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">Flexbox</span><span class="tag">Tailwind</span></div>
+          <div class="project-title">E-Commerce Storefront</div>
+          <p class="project-desc">Clean, conversion-focused product page with hover effects and mobile-first layout.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link">↗ Live Demo</a>
+            <a href="#" class="proj-link">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb p5"><span>05</span></div>
+        <div class="project-body">
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Typography</span></div>
+          <div class="project-title">Blog Template</div>
+          <p class="project-desc">Readable, typographically rich blog layout with category filters and reading progress bar.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link">↗ Live Demo</a>
+            <a href="#" class="proj-link">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb p6"><span>06</span></div>
+        <div class="project-body">
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS Variables</span><span class="tag">a11y</span></div>
+          <div class="project-title">Component Library</div>
+          <p class="project-desc">An accessible, theme-able set of UI components documented and ready to use in any project.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link">↗ Live Demo</a>
+            <a href="#" class="proj-link">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner">
+    <p class="section-label">Say Hello</p>
+    <h2>Let's Work Together</h2>
+    <p class="section-desc">Have a project in mind? I'd love to hear about it.</p>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>Whether you need a landing page, a full site, or just want to chat about
+        CSS — my inbox is open.</p>
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <span>mauryah7678@email.com</span>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <span>Jhansi, Uttar Pradesh, India</span>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">💼</div>
+          <span> <a href="https://www.linkedin.com/in/himanshu-1a189a293?utm_source=share_via&utm_content=profile&utm_medium=member_android">Linkdin.com/Himanshu</a></span>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🐙</div>
+          <span><a href="https://github.com/Himanshu-ui355">github.com/Himanshu</a></span>
+        </div>
+      </div>
+      <form onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <input type="text" placeholder="Subject" />
+        <textarea placeholder="Tell me about your project..."></textarea>
+        <button type="submit" class="btn-submit">Send Message →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Designed &amp; built by <strong>Your Name</strong> · HTML &amp; CSS Developer · © 2026</p>
+</footer>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks  = document.getElementById('navLinks');
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
+  navLinks.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => navLinks.classList.remove('open'));
+  });
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    const btn = e.target.querySelector('.btn-submit');
+    btn.textContent = '✓ Message Sent!';
+    btn.style.background = 'linear-gradient(135deg, #00D4FF, #B0FF57)';
+    setTimeout(() => {
+      btn.textContent = 'Send Message →';
+      btn.style.background = '';
+      e.target.reset();
+    }, 3000);
+  }
+
+  const bars = document.querySelectorAll('.bar');
+  const widths = Array.from(bars).map(b => b.style.width);
+  bars.forEach(b => { b.style.width = '0'; b.style.animation = 'none'; });
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        bars.forEach((b, i) => { b.style.width = widths[i]; b.style.animation = ''; });
+        observer.disconnect();
+      }
+    });
+  }, { threshold: 0.2 });
+  const skillsSection = document.getElementById('skills');
+  if (skillsSection) observer.observe(skillsSection);
+</script>
+
+</body>
+</html>
